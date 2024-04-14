@@ -1,0 +1,42 @@
+/* Reseteamos todos los valores a 0 para no tener conflictos con el estilo */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Importamos tipografía desde google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Estilos para el menú */
+nav {
+    background-color: #9f3647;
+    
+}
+
+.navbar a{
+    color: rgb(255, 255, 255);
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.navbar a span {
+    font-weight: 900; 
+    
+}
+.navbar-toggler{
+    position: absolute;
+    right: 0;
+}
+
+.nav-link{
+    padding-left: 15px;
+}
+
+.nav-link-iniciar-sesion{
+    background-color: black;
+    border-radius: 5px;
+}
+
+
