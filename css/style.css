@@ -8,10 +8,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-/* Estilos para el menú */
-nav {
-    background-color: #9f3647;
-    
+
+
+
+
+
+
+/* Estilos del menú */
+.nav-color{
+    background-color: #9f3647;;
+}
+
+.logo{
+    width: 25px;
+    margin-right: 15px;
 }
 
 .navbar a{
@@ -21,22 +31,11 @@ nav {
     font-size: 1.1rem;
 }
 
-.navbar a span {
-    font-weight: 900; 
-    
-}
-.navbar-toggler{
-    position: absolute;
-    right: 0;
+.nav-item{
+    margin: 10px;
 }
 
-.nav-link{
-    padding-left: 15px;
-}
-
-.nav-link-iniciar-sesion{
+.link-iniciar-sesion{
     background-color: black;
     border-radius: 5px;
 }
-
-
