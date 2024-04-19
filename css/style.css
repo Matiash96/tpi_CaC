@@ -184,3 +184,52 @@ unicode-bidi: isolate;*/
     color: white;
 
 }
+
+/*TENDENCIAS */
+
+/*Estilo del titulo*/
+.tendencias {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    text-align: center;
+    color: white;
+}
+
+/*Estilo general de las imagenes*/
+.card {
+    position: relative;
+    border: 0px solid black;
+}
+
+/*Difuminacion cuando paso por encima de las imagenes*/
+.card:hover {
+    filter: blur(8px); /*Difumino el fondo*/
+    transform: scale(0.9); /*achico el tamaño*/
+}
+
+/*Ver porque no se como funciona - chat*/
+.card::after {
+    content: ""; /* Necesario para que aparezca el pseudo-elemento */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3; /* Asegura que el borde difuminado esté sobre la imagen */
+    border: 2px solid transparent; /* Establece un borde transparente */
+    filter: blur(2px); /* Aplica el efecto de difuminado al borde */
+    transition: ease; /* Agrega una transición suave */
+}
+
+/*Ver porque no se como funciona - chat*/
+.card:hover::after {
+    border-color: (rgb(227, 231, 0), 0.5); /* Cambia el color del borde al pasar el ratón por encima */
+}
+
+/*https://giselemilagros88.github.io/cac_movies_javaphp/
+Falta posicionar bien las imagenes 
+Ver el color del borde difuminado
+Ver como poner el nombre  
+
+*/
