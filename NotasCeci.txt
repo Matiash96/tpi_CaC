@@ -1,0 +1,21 @@
+Cosas que faltan:   
+
+"Las tendencias de hoy"
+* Ajustar bien el tamaño de las imagenes 
+* Ver el color del borde difuminado 
+* Acomodar los botones en el centro de la pag 
+* Conectar con la Descripcion asi cuando clickeas sobre la imagen te lleva a la descripcion 
+
+
+"Descripcion"
+* Ajustar el tamaño de la portada 
+* Agregar la foto de la peli
+* Acomodar la descripcion
+* Agregar todos los iconos y links 
+
+"Las mas aclamadas"
+* Ajustar el tamaño
+* Ver de poner atras del scroll un contenedor mas oscurito
+
+
+https://giselemilagros88.github.io/cac_movies_javaphp/
