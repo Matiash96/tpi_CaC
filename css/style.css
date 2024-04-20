@@ -196,40 +196,74 @@ unicode-bidi: isolate;*/
     color: white;
 }
 
-/*Estilo general de las imagenes*/
+/*Fondo de cada imagen*/
 .card {
-    position: relative;
-    border: 0px solid black;
+    margin: 10%;
+    border: transparent;
+    width: 100%;
+    height: auto;   
+    padding: 0%;
+    align-items: center;
+    border-radius: 0.5em;
+    background-color: #9f3647;
+    display: flex;
+    /*justify-content: center;*/
 }
 
+    
 /*Difuminacion cuando paso por encima de las imagenes*/
-.card:hover {
-    filter: blur(8px); /*Difumino el fondo*/
+.card:hover .card-img-top{
+    filter: blur(50px); /*Difumino el fondo*/
     transform: scale(0.9); /*achico el tamaño*/
+    transition-timing-function: linear;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
 }
 
-/*Ver porque no se como funciona - chat*/
-.card::after {
-    content: ""; /* Necesario para que aparezca el pseudo-elemento */
+/*Texto cuando paso encima de la imagen*/
+.card:hover h3 {
+    width: 100%;
+    padding: 0.5rem;
+    opacity: 1;
+    color: white;
+    font-size: xx-large;
+}
+
+/*DIV que tiene dentro toda la estructura de las imagenes*/
+.row {
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+/*Imagenes en si */
+.card-img-top {
+    border-radius: 0.5em;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+h3 {
+    z-index: 2;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 3; /* Asegura que el borde difuminado esté sobre la imagen */
-    border: 2px solid transparent; /* Establece un borde transparente */
-    filter: blur(2px); /* Aplica el efecto de difuminado al borde */
-    transition: ease; /* Agrega una transición suave */
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    max-width: 20rem;
+    width: 100%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 1.6rem;
+    font-weight: bold;
+    opacity: 0;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+    transition: opacity 0.5s ease-in-out;
+    
 }
 
-/*Ver porque no se como funciona - chat*/
-.card:hover::after {
-    border-color: (rgb(227, 231, 0), 0.5); /* Cambia el color del borde al pasar el ratón por encima */
-}
 
 /*https://giselemilagros88.github.io/cac_movies_javaphp/
-Falta posicionar bien las imagenes 
-Ver el color del borde difuminado
-Ver como poner el nombre  
-
+Falta ajustar bien el tamaño de las imagenes 
+Ver el color del borde difuminado 
 */
