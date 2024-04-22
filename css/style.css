@@ -152,7 +152,7 @@ unicode-bidi: isolate;*/
     box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     transition: 0.5s;
 }
- h1, h2{
+h1, h2{
     line-height: normal;
     margin-bottom: 5px;
     padding-bottom: 5px;
@@ -186,6 +186,7 @@ unicode-bidi: isolate;*/
 }
 
 /*TENDENCIAS */
+
 
 /*Estilo del titulo*/
 .tendencias {
@@ -233,16 +234,16 @@ unicode-bidi: isolate;*/
     padding: 0.5rem;
     opacity: 1;
     color: white;
-    font-size: xx-large;
+    font-size: large;
     cursor: pointer;
 }
 
 /*DIV que tiene dentro toda la estructura de las imagenes*/
-.row {
+.contenedor_tendencias {
     margin-left: 10%;
     margin-right: 10%;
-    
 }
+
 
 /*Imagenes en si */
 .card-img-top {
@@ -250,8 +251,10 @@ unicode-bidi: isolate;*/
     height: auto;
     max-width: 100%;
     object-fit: cover;
+    
 }
 
+/*Titulo de cada peli*/
 h3 {
     z-index: 2;
     position: absolute;
@@ -301,12 +304,15 @@ h3 {
 
 
 /*Descripcion de peliculas*/
+
+/*Imagen de portada*/
 .img-fluid {
     max-width: 100%;
     height: auto;
     opacity: 0.5;
 }
 
+/*Descripcion peli */
 .descripcion {
     color: white;
     position: absolute;
@@ -320,12 +326,17 @@ h3 {
     text-align: center;
 }
 
-.trailer {
-    margin: 5% 10%;
-
+.descripcion h2 {
+    margin-left: 0%;
 }
 
-.trailer p {
+/*Posicion del video y titulo trailes*/
+.trailer {
+    margin: 5% 8%;
+}
+
+/*Titulo ver trailer*/
+.trailer h2 {
     color: white;
     font-size: 18px;
     font-family: "M PLUS Rounded 1c", sans-serif;
@@ -333,6 +344,7 @@ h3 {
     font-style: normal; 
 
 }
+
 
 /*LAS MAS ACLAMADAS*/
 
@@ -375,8 +387,11 @@ h3 {
 .linea {
     border-top: 2px solid #9f3647; /* Puedes ajustar el grosor y el color de la línea */
     height: 80px; /* Ajusta la altura de la línea según tus necesidades */
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 100%;
     padding: 0%;
-}
+    margin: 0%;
+    text-align: center;
+    }
+
+
+
