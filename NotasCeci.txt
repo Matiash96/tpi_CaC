@@ -1,0 +1,28 @@
+Cosas que faltan:   
+
+"Las tendencias de hoy"
+* Ajustar bien el tamaño de las imagenes 
+* Ver el color del borde difuminado 
+* Conectar con la Descripcion asi cuando clickeas sobre la imagen te lleva a la descripcion 
+* Ver como hacer para que aparezca desde el titulo en adelante cuando tocamos en el menu tendencias 
+
+
+"Descripcion"
+* Ajustar el tamaño de la portada 
+* Agregar la foto de la peli
+* Acomodar la descripcion
+* Agregar todos los iconos y links 
+
+"Las mas aclamadas"
+* Ver de poner atras del scroll un contenedor mas oscurito
+
+"Linea que separa secciones"
+* Centrarla 
+* Achicar el espacio entre la linea y el titulo de cada seccion 
+
+- General 
+→ hacer que las imagenes se carguen a medida que van apareciendo en la pantalla
+→ hacer que sea toda mi parte sea responsive
+
+
+https://giselemilagros88.github.io/cac_movies_javaphp/
