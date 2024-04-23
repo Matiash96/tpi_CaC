@@ -55,3 +55,21 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+
+/*Titulo ver trailer*/
+.trailerPeli h2 {
+    color: white;
+    font-size: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+
+}
+
+.trailerPeli {
+    margin: 12% 15%;
+}
+
+

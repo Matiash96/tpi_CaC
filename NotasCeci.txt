@@ -6,8 +6,6 @@ Cosas que faltan:
 
 
 "Descripcion"
-* Ajustar el tamaño de la portada 
-* Acomodar la descripcion
 * Agregar todos los iconos y links 
 
 
