@@ -319,9 +319,9 @@ unicode-bidi: isolate;*/
 }
 
 .slider img {
-    padding: 2%;
-    border-radius: 1.9em; 
-    width: 27%;
+    padding: 20px;
+    border-radius: 30px; 
+    width: 15%;
     object-fit: cover;
 }
 

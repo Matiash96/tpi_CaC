@@ -1,15 +1,14 @@
 .portada {
     position: relative;
-    height: 80vh;
+    height: 70vh;
     background-image: linear-gradient(rgba(136, 130, 130, 0.5), rgba(150, 139, 139, 0.5)), url('../img/mario-bg.jpg');
     background-position: center; /* Centra la imagen dentro del contenedor */
 }
 
 .contenedor_detalles {
     width: 75%;
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
+    display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 60px;
@@ -18,18 +17,17 @@
 .imagen_portada {
     margin-top: 50px;
     margin-bottom: 20px;
-    width: 100%;
+    width: 50%;
     text-align: center;
     border-radius: 30px;
 }
 
 .imagen_portada img {
-    width: 30%;
-    border-radius: 30px;
-    filter: brightness(130%); /* Aumenta el brillo al 130% */
+    border-radius: 20px;
 }
 
 .descripcion {
+    width: 80%;
     position: relative;
     z-index: 1;
     color: white;
@@ -51,4 +49,9 @@
 .descripcion h3{
     font-size: 20px;
     margin: 0;
+}
+
+.creditos{
+    display: flex;
+    justify-content: space-between;
 }
