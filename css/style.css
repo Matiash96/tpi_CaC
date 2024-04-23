@@ -68,19 +68,7 @@ body{
     background-color: #171418;
 }
 
-/* Estilos para el footer */
-footer .flecha-hacia-arriba {
-    position: fixed;
-    width: 32px;
-    height: 32px;
-    bottom: 40px;
-    right: 15px;
-    background-color: transparent;
-    color: #fff;
-    text-align: center;
-    font-size: 30px;
-    z-index: 1000;
-}
+
 /* Estilos para la barra de desplazamiento en navegadores webkit */
 ::-webkit-scrollbar {
     width: 10px; /* Ancho de la barra de desplazamiento */
@@ -305,8 +293,6 @@ h3 {
     cursor: default;
 }
 
-
-
 /*Descripcion de peliculas*/
 
 /*Imagen de portada*/
@@ -370,7 +356,6 @@ h3 {
 
 
 /*LAS MAS ACLAMADAS*/
-
 .contenedor .aclamada {
     color: white;
     text-align: center;
@@ -414,4 +399,105 @@ h3 {
     padding: 0%;
     margin: 0%;
     text-align: center;
+}
+
+
+/* Estilos para el footer */
+footer {
+    background-color: #9f3647;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul{
+    width: 75%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-footer{
+    color: rgb(255, 255, 255);
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.link-administrador{
+    background-color: #181419;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer .flecha-hacia-arriba {
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    bottom: 40px;
+    right: 15px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1000;
+}
+
+footer .flecha-hacia-arriba {
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    bottom: 40px;
+    right: 15px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1000;
+}
+
+/* Animación logo */
+.navbar-brand:hover {
+    animation-name: logo;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes navbar-brand {
+    0% {
+        transform: translate(0px, 0px) scale(0.9) rotate(0deg);
+    }
+    25% {
+        transform: translate(-5px, 0px) scale(0.8) rotate(10deg);
+    }
+    50% {
+        transform: translate(-10px, 5px) scale(1) rotate(0deg);
+    }
+    75% {
+        transform: translate(0px, 10px) scale(1.1) rotate(-10deg);
+    }
+    100% {
+        transform: translate(5px, -10px) scale(1) rotate(0deg);
+    }
+}
+
+@keyframes logo {
+    0% {
+        transform: translate(0px, 0px) scale(0.9) rotate(0deg);
+    }
+    25% {
+        transform: translate(-5px, 0px) scale(0.8) rotate(10deg);
+    }
+    50% {
+        transform: translate(-10px, 5px) scale(1) rotate(0deg);
+    }
+    75% {
+        transform: translate(0px, 10px) scale(1.1) rotate(-10deg);
+    }
+    100% {
+        transform: translate(5px, -10px) scale(1) rotate(0deg);
+    }
 }
