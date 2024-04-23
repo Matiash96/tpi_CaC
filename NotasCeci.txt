@@ -6,9 +6,7 @@ Cosas que faltan:
 
 
 "Descripcion"
-* Acomodar la barra del menu
 * Ajustar el tamaño de la portada 
-* Agregar la foto de la peli
 * Acomodar la descripcion
 * Agregar todos los iconos y links 
 

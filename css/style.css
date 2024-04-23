@@ -187,7 +187,6 @@ h1, h2{
 
 /*TENDENCIAS */
 
-
 /*Estilo del titulo*/
 .tendencias {
     font-family: "M PLUS Rounded 1c", sans-serif;
@@ -195,6 +194,7 @@ h1, h2{
     font-style: normal; 
     text-align: center;
     color: white;
+    margin-bottom: 1rem;
 }
 
 /*Fondo de cada imagen*/
@@ -226,7 +226,10 @@ h1, h2{
     transition-duration: 0.5s;
     transition-delay: 0.2s;
     cursor: pointer;
+    
 }
+
+
 
 /*Texto cuando paso encima de la imagen*/
 .card:hover h3 {
@@ -242,6 +245,7 @@ h1, h2{
 .contenedor_tendencias {
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 
 
@@ -251,7 +255,7 @@ h1, h2{
     height: auto;
     max-width: 100%;
     object-fit: cover;
-    
+    width: 10rem;
 }
 
 /*Titulo de cada peli*/
@@ -307,32 +311,51 @@ h3 {
 
 /*Imagen de portada*/
 .img-fluid {
+    position: absolute;
+    top: 0;
+    left: 0;
     max-width: 100%;
     height: auto;
+    background-size: cover;
+    z-index: 1;
     opacity: 0.5;
 }
 
+
 /*Descripcion peli */
 .descripcion {
+    margin-left: 50%;
+    margin-top: 10%;
+    padding: 20px;
     color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: relative;
     transform: translate(-20%, 0%);
     font-size: 18px;
     font-family: "M PLUS Rounded 1c", sans-serif;
     font-weight: 700;
-    font-style: normal; 
-    text-align: center;
+    font-style: normal;
+    z-index: 1;
 }
 
-.descripcion h2 {
-    margin-left: 0%;
+/*MEJORAR ESTO SI O SI */
+.creditos p {
+    word-spacing: 10px;
+}
+
+.creditos .desc {
+    word-spacing: 100px;
+}
+
+.peli {
+    /*position: relative;*/
+    transform: translate(-60%, -60%);
+    z-index: 2;
+
 }
 
 /*Posicion del video y titulo trailes*/
-.trailer {
-    margin: 5% 8%;
+.trailerPeli {
+    margin: 0% 8%;
 }
 
 /*Titulo ver trailer*/
@@ -391,7 +414,4 @@ h3 {
     padding: 0%;
     margin: 0%;
     text-align: center;
-    }
-
-
-
+}
