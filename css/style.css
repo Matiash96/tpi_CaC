@@ -86,45 +86,40 @@ body{
 }
 /*Algunos estilos estan de mas CONTROLAR*/
 .sectionPrincipal {
-align-items: center;
-text-align: center;
-justify-content :center;
-background-attachment: scroll, scroll;
-background-clip: border-box, border-box;
-background-color: rgba(0, 0, 0, 0);
-background-image: linear-gradient(to right top, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url('../img/banner-bg.jpg');
-display: flex;
-height: 90vh;
-flex-direction :column;
-color: rgb(255, 255, 255);/*color a las letras*/
-background-position-x: 50%, 50%;/*agranda o ajusta la imagen en X*/
-background-position-y: 50%, 50%;/*agranda o ajusta la imagen en Y*/
-background-repeat: repeat, repeat;
-background-size: cover, cover;
-
-/*box-sizing: border-box;
-background-origin: padding-box, padding-box;
-margin-bottom: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
-opacity: 1;
-padding-bottom: 0px;
-padding-left: 0px;
-padding-right: 0px;
-padding-top: 0px;
-pointer-events: auto;
-transform: matrix(1, 0, 0, 1, 0, 0);
-transition-duration: 1s;
-transition-property:opacity, transform, -webkit-transform;
-transition-timing-function: ease;
-unicode-bidi: isolate;*/
+    align-items: center;
+    text-align: center;
+    justify-content :space-evenly;
+    display: flex;
+    flex-direction :column;
+    height: 90vh;
+    padding: 7rem;
+    color: rgb(255, 255, 255);/*color a las letras*/
+    background-attachment: scroll, scroll;
+    background-clip: border-box, border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(to right top, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url(https://giselemilagros88.github.io/cac_movies_javaphp/assets/img/banner-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color:rgba(57, 56, 56, 0.76);
+}
+.sectionPrincipal h1{
+    font-weight: bold; /*grosor en la letra*/
+   -webkit-text-stroke: 1px black; /**borde negro*/
+   font-size: 70px;
+   position: relative;
+   text-shadow: black 0 -2px;
+   padding: 80px;
+}
+.sectionPrincipal h2{
+    font-size: 40px;
+    position: relative;
 }
 
 /*Efecto del boton REGISTRAR*/
 .botonRegistrarse{
     position: relative;
-    margin: auto;
     padding: 19px 22px;
     transition: all 0.2s ease;
     background-color: #9f3647;
@@ -141,6 +136,44 @@ unicode-bidi: isolate;*/
     transition: 0.5s;
 }
 
+
+/*BUSCADOR*/
+.buscadorPrincipal{
+    position: relative;
+    justify-content :space-evenly;
+    flex-direction :column;
+    height: 450px;
+    color: white;
+}
+.tituloSection {
+    position: relative;
+    text-align: center;
+    padding: 150px;
+}
+.buscadorPeliculas{ /*form*/
+    position:relative;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.inputBuscador{
+    align-items: center;
+    border-style: none;
+    border-radius: 20PX;
+    padding: 10px;
+    width: 500px;
+}
+.botonBuscador{
+    align-items: center;
+    border-color: white;
+    border-radius: 20PX;
+    background-color: #9f3647;
+    color: white;
+    padding: 10px;
+    width: 100px;
+}
+
+
 .main h1, .main h2{
     line-height: normal;
     margin-bottom: 5px;
@@ -148,30 +181,6 @@ unicode-bidi: isolate;*/
     position: relative;
     margin: auto;
     text-shadow: black 0 -2px;
-}
-
-/*BUSCADOR*/
-.buscadorPrincipal{
-    align-items: center;
-    text-align: center;
-    justify-content :center;
-    align-items: center;
-    text-align: center;
-    height: 500px;
-    text-align: center;
-    color: white;
-}
-
-.inputBuscador{
-    border-radius: 20PX;
-}
-
-.botonBuscador{
-    border-radius: 20PX;
-    border-color: white;
-    background-color: #9f3647;
-    color: white;
-
 }
 
 /*TENDENCIAS */
