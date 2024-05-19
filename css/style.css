@@ -8,21 +8,24 @@
     margin: 0;
 }
 
+body{
+    background-color: #171418;
+}
+
 /* Estilos del menú */
-header{
+.navbar{
     background-color: #9f3647;
     color: #ffffff;
     height: 10vh;
     position: sticky;
     top: 0;
     z-index: 10;
-}
-.nav-color{
     padding: 15px 20px;
 }
 
 .navbar-brand span{
     font-size: 1.2rem;
+    margin-left: 10px;
 }
 
 .logo{
@@ -44,7 +47,6 @@ header{
 
 .nav-item .nav-link{
     padding: 10px 50px;
-    
 }
 
 .nav-item a{
@@ -57,16 +59,25 @@ header{
 }
 
 .nav-item:hover, .link-iniciar-sesion:hover{
-    background-color: #9f3647;
+    background-color: #9f3647;  
     transition-duration: 0.3s, 0.3s;
     border-radius: 5px;
     box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     transition: 0.5s;
 }
 
-body{
-    background-color: #171418;
+@media (max-width: 991px) { 
+    .navbar-nav{
+        display: flex;
+        align-items: center; /* Centra verticalmente */
+        text-align: center;
+    }
+    .nav-item {
+        margin-bottom: 5px;
+        width: 50%;
+    }
 }
+
 
 
 /* Estilos para la barra de desplazamiento en navegadores webkit */
@@ -84,6 +95,8 @@ body{
 ::-webkit-scrollbar-thumb {
     background-color: #9f3647; /* Color del pulgar de la barra de desplazamiento */
 }
+
+
 /*Algunos estilos estan de mas CONTROLAR*/
 .sectionPrincipal {
     align-items: center;
@@ -378,6 +391,29 @@ footer ul{
     padding: 10px;
     border-radius: 5px;
 }
+
+@media (max-width: 991px) { 
+    footer{
+        height: 20vh;
+    }
+    footer ul {
+        width: 100%;
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer ul li {
+        margin-bottom: 10px;
+    }
+    
+
+    .link-footer{
+        width: 100%;
+    }
+}
+
 
 footer .flecha-hacia-arriba {
     position: fixed;
