@@ -41,40 +41,59 @@
 
 
 
-        <form>
+        <form id="myForm" action="">
             <div >
-              <input class="casillero" id="email" type="email" placeholder="Nombre" name="nombre">
+              <input class="casillero"  type="text" placeholder="Nombre" name="nombre">
+            <span id="errorNombre" class="error"></span>
             </div>
             <div >
-                <input class="casillero" id="email" type="email" placeholder="Apellido" name="apellido">
+                <input class="casillero"  type="text" placeholder="Apellido" name="apellido">
+                <span id="errorApellido" class="error"></span>
               </div>
               <div >
-                <input class="casillero" id="email" type="email" placeholder="Email" name="email">
+                <input class="casillero"  type="email" placeholder="Email" name="email">
+                <span id="errorEmail" class="error"></span>
               </div>
             <div >
                 <input class="casillero" id="password" type="password" placeholder="Contraseña" name="password">
+                <span id="errorPassword" class="error"></span>
               </div>
               <div >
-                <input class="casillero" id="email" type="email" placeholder="dd/mm/aa" name="nacimiento">
-              </div><div >
-                <input class="casillero" id="email" type="email" placeholder="País" name="pais">
+                <input class="casillero" id="password2" type="password" placeholder="Confirmar contraseña" name="password2">
+                <span id="errorPassword" class="error"></span>
               </div>
+              <div >
+                <input class="casillero"  type="date" placeholder="dd/mm/aa" name="nacimiento">
+                <span id="errorNacimiento" class="error"></span>
+              </div><div >
+                <select class="casillero"  name="pais">
+                  <option value="">Pais</option>
+                  <option value="1">Argentina</option>
+                  <option value="2">Brasil</option>
+                  <option value="3">Uruguay</option>
+                </select>
+                <span id="errorPais" class="error"></span>
+              </div>
+<p>
+<label for="terminos" >
+  <input type="checkbox" name="terminos" id="terminos" value="acepta">   Aceptar terminos y condiciones
+</label>
+<span id="errorTerminos" class="error"></span>
+</p>
 
-
+            <p>
+              <input class="botonIniciarSesion" oneclick="validar(this.form)" type="submit" value="Registrarse">
+            </p>
             <div>
-              <button class="botonIniciarSesion" type="submit" class="btn btn-primary">Registrarse</button>
-            </div>
-            <div>
-              <a id="registrarse" class="registrar" href="">¿Necesitas ayuda?</a>
+              <a id="registrarse"  class="registrar" href="">¿Necesitas ayuda?</a>
             </div>
           </form>
         </div>
 
 
-    <!-- Link a script de bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+      
+        <script src="../js/main.js"></script>
+        
 </body>
 
 
