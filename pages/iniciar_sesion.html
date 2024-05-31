@@ -41,19 +41,20 @@
 
 
 
-        <form>
-            <div >
+        <form id="miFormul" action="">
+            <p>
               <input class="casillero" id="email" type="email" placeholder="Email" name="email">
-            </div>
-            <div >
+              <span id="errorEmail" class="error"></span>
+            </p>
+            <p>
                 <input class="casillero" id="password" type="password" placeholder="Contraseña" name="password">
-              </div>
-            <div>
+                <span id="errorPassword" class="error"></span></p>
+            <p>
               <button class="botonIniciarSesion" type="submit" class="btn btn-primary">Iniciar Sesión</button>
-            </div>
-            <div>
+            </p>
+            <p>
               <a id="registrarse" class="registrar" href="../pages/registrarse.html">Registrarse</a>
-            </div>
+            </p>
           </form>
         </div>
 
@@ -63,7 +64,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-        <script src="../js/"></script>
+        <script src="../js/iniciarSesion.js"></script>
 </body>
 
 
