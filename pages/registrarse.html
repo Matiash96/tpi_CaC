@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-
 <body class="bodyIniciarSesion">
     <header class="headerIniciarSesion">
         <!-- Inicio del menú -->
@@ -28,32 +27,22 @@
         </nav>
     </header>
 
-
     <div class="comienzoIniciarSesion">
-     
-
-
-
-
         <div class="tituloIniciarSesion"><h1>Registro</h1>
         </div>
-
-
-
-
         <form id='myForm' action="">
             <div >
               <input class="casillero"  type="text" placeholder="Nombre" name="nombre">
-            <span id="errorNombre" class="error"></span>
+              <span id="errorNombre" class="error"></span>
             </div>
             <div >
                 <input class="casillero"  type="text" placeholder="Apellido" name="apellido">
                 <span id="errorApellido" class="error"></span>
-              </div>
-              <div >
+            </div>
+            <div >
                 <input class="casillero"  type="email" placeholder="Email" name="email">
                 <span id="errorEmail" class="error"></span>
-              </div>
+            </div>
             <div >
                 <input class="casillero" id="password" type="password" placeholder="Contraseña" name="password">
                 <span id="errorPassword" class="error"></span>
@@ -74,28 +63,22 @@
                 </select>
                 <span id="errorPais" class="error"></span>
               </div>
-<p>
-<label for="terminos" >
-  <input type="checkbox" name="terminos" id="terminos" value="acepta">   Aceptar terminos y condiciones
-<span id="errorTerminos" class="error"></span>
-</label>
-
-</p>
-
-            <p>
-              <input class="botonIniciarSesion" oneclick="validar(this.form)" type="submit" value="Registrarse">
-            </p>
-            <div>
-              <a id="registrarse"  class="registrar" href="">¿Necesitas ayuda?</a>
-            </div>
-          </form>
-        </div>
-
-
-      
-        <script src="../js/registrarse.js"></script>
+              <p>
+                <label for="terminos" >
+                  <input type="checkbox" name="terminos" id="terminos" value="acepta">   Aceptar terminos y condiciones
+                  <span id="errorTerminos" class="error"></span>
+                </label>
+               </p>
+              <p>
+               <input class="botonIniciarSesion" oneclick="validar(this.form)" type="submit" value="Registrarse">
+              </p>
+              <div>
+                <a id="registrarse"  class="registrar" href="">¿Necesitas ayuda?</a>
+              </div>
+        </form>
+    </div>
+    <script src="../js/registrarse.js"></script>
         
 </body>
-
 
 </html>

@@ -479,7 +479,8 @@ footer .flecha-hacia-arriba {
     background: linear-gradient(to right top, #24242473, #24242473), url(../img/bg-register.jpg);
     background-size: cover;
     background-position: center;
-
+    align-items: center;
+}
 
     .headerIniciarSesion {
         position: sticky;
@@ -491,25 +492,21 @@ footer .flecha-hacia-arriba {
     }
 
     .comienzoIniciarSesion {
-        background-color: #635d5f;
+        background-color: #333133;
         height: 85%;
-        border-radius: 5px;
-        margin-top: 10px;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 10px;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 35%;
         align-content: center;
         padding: 40px;
-        width: 90%;
-       animation-name: inicioSesion;
-       animation-duration: 0.5s;
-       animation-timing-function: linear;
-       
-        
-         overflow: auto;
+        width: 30%;
+        animation-name: inicioSesion;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        overflow: auto;
+    }
                           
-
-        .tituloIniciarSesion {
+    .tituloIniciarSesion {
             font-weight: 700;
             text-align: center;
             color: white;
@@ -517,19 +514,16 @@ footer .flecha-hacia-arriba {
             padding-top: 1rem;
             padding-bottom: 2rem;
         }
-
-        .casillero {
+    .casillero {
            
             border-radius: 20px;
             border: #9f3647 2px solid;
             background-color: white;
-             padding: 1rem;
-             margin: 1rem;
-            
+            padding: 1rem;
+            margin: 1rem;
             width: 87%; 
-
         }
-        .botonIniciarSesion{
+    .botonIniciarSesion{
             margin-top: 20px;
             margin-bottom: 20px;
             background-color: #9f3647;
@@ -537,32 +531,22 @@ footer .flecha-hacia-arriba {
             border: 2px solid #9f3647;
             color: #ffffff;
             padding: 1rem;
-            font-size: 0.8rem;
+            font-size: 1.3rem;
             font-weight: 400;
             width: 87%;
 
-
-
         }
         .registrar{
-            color: #6b5d60;
+            color: #ffffff;
             text-align: center;
-
-
-
-
         }
+        
         .terminos{
-            color: #6b5d60;
+            color: #ffffff;
             
         }
 
-    }
-
-
-
-}
-
+    
 @keyframes inicioSesion {
     0% {
         opacity: 0;
