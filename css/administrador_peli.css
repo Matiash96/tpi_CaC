@@ -69,19 +69,18 @@
                        
         }
         .tablaAdministrarPeli{
+            display: flex;
+            align-items: center;
+            justify-content: center; 
             table-layout: auto;
-            border-spacing: 4rem;
-            border: 1px solid #a5a1a1;
-            border-collapse: separate;
-            border-spacing: 5px;
-            empty-cells: show;
-            .th {
-                padding: 8px
-            }
+ width: 300px
             
-
         }
-
+ .encabezadotablapeliculas {
+                padding: 8px;
+                border-bottom: 1px solid #a5a1a1;
+                
+            }
         .registrar{
             color: #ffffff;
             text-align: center;
