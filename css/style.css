@@ -499,7 +499,6 @@ footer .flecha-hacia-arriba {
         margin-left: 35%;
         align-content: center;
         padding: 40px;
-        width: 30%;
         animation-name: inicioSesion;
         animation-duration: 0.5s;
         animation-timing-function: linear;
